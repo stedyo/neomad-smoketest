@@ -30,11 +30,11 @@ class PromoSection extends React.Component {
                         <div className="card border-0 single-promo-card single-promo-hover p-2 mt-4 shadow">
                             <div className="card-body">
                                 <div className="pb-2">
-                                    <span className="fas fa-concierge-bell icon-size-md color-secondary"></span>
+                                    <span className="fas fa-heart icon-size-md color-secondary"></span>
                                 </div>
                                 <div className="pt-2 pb-3">
-                                    <h5>Modular</h5>
-                                    <p className="mb-0">All components are built to be used in combination.</p>
+                                    <h5>Dating</h5>
+                                    <p className="mb-0">Find someone to start a nomad life together, casually date people along the way, or even meet your free-spirit soulmate.</p>
                                 </div>
                             </div>
                         </div>
@@ -43,11 +43,11 @@ class PromoSection extends React.Component {
                         <div className="card border-0 single-promo-card single-promo-hover p-2 mt-4 shadow">
                             <div className="card-body">
                                 <div className="pb-2">
-                                    <span className="fas fa-window-restore icon-size-md color-secondary"></span>
+                                    <span className="fas fa-house-user icon-size-md color-secondary"></span>
                                 </div>
                                 <div className="pt-2 pb-3">
-                                    <h5>Responsive</h5>
-                                    <p className="mb-0">Quick is optimized to work for most devices.</p>
+                                    <h5>Housing </h5>
+                                    <p className="mb-0">Allow our artificial intelligence to cross your current and future locations with people who want to share accommodation.</p>
                                 </div>
                             </div>
                         </div>
@@ -56,11 +56,11 @@ class PromoSection extends React.Component {
                         <div className="card border-0 single-promo-card single-promo-hover p-2 mt-4 shadow">
                             <div className="card-body">
                                 <div className="pb-2">
-                                    <span className="fas fa-sync-alt icon-size-md color-secondary"></span>
+                                    <span className="fas fa-people-arrows icon-size-md color-secondary"></span>
                                 </div>
                                 <div className="pt-2 pb-3">
-                                    <h5>Scalable</h5>
-                                    <p className="mb-0">Remain consistent while developing new features.</p>
+                                    <h5>Meetups</h5>
+                                    <p className="mb-0">Do not let your hobbies fall into oblivion. Find a cool group of people to go hiking, go dancing, go sightseeing, etc.</p>
                                 </div>
                             </div>
                         </div>
@@ -69,11 +69,11 @@ class PromoSection extends React.Component {
                         <div className="card border-0 single-promo-card single-promo-hover p-2 mt-4 shadow">
                             <div className="card-body">
                                 <div className="pb-2">
-                                    <span className="fas fa-bezier-curve icon-size-md color-secondary"></span>
+                                    <span className="fas fa-star icon-size-md color-secondary"></span>
                                 </div>
                                 <div className="pt-2 pb-3">
-                                    <h5>Customizable</h5>
-                                    <p className="mb-0">Change a few variables and the whole theme adapts.</p>
+                                    <h5>Favorites</h5>
+                                    <p className="mb-0">How about having all the forenamed benefits indexed inside your pocket, easily accessible at any moment? Cool or awesome?!</p>
                                 </div>
                             </div>
                         </div>

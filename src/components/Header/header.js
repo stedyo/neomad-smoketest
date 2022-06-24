@@ -8,7 +8,7 @@ class Header extends React.Component {
         <header className="header">
           <nav className="navbar navbar-expand-lg fixed-top bg-transparent">
               <div className="container">
-                  <a className="navbar-brand" href="index.html">
+                  <a className="navbar-brand" href="/">
                      {/* <img src={this.props.isColorLogo && this.props.isColorLogo === true ? "assets/img/logo-color.png" : "assets/img/logo-white.png"}
                       alt="logo" className="img-fluid" />*/}
                       <img src={"assets/img/y-logo.svg"} width="250px"
