@@ -51,7 +51,7 @@ class About extends React.Component {
                         </div>
                         <div className="col-sm-5 col-md-5 col-lg-4">
                             <div className="about-content-right">
-                                <img src="assets/img/app-screenshots/2th-mockup.svg" alt="about us" className="img-fluid" />
+                                <img src="assets/img/app-screenshots/2nd-mockup.svg" alt="about us" className="img-fluid" />
                             </div>
                         </div>
                     </div>

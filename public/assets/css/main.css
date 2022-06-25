@@ -13578,7 +13578,6 @@ img.mfp-img {
 .img-fluid {
   max-width: 100%;
   height: auto;
-  max-height: 600px;
 }
 
 /* line 14, node_modules/bootstrap/scss/_images.scss */
@@ -23048,8 +23047,8 @@ footer a {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   display: block;
-  width: 290px;
-  height: 513px;
+  width: 310px;
+  height: 623px;
   position: absolute;
   top: -10px;
   left: calc(50% + 0.5px);
