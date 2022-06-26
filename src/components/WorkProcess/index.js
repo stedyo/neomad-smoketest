@@ -23,9 +23,11 @@ class WorkProcess extends React.Component {
                 <div className="row justify-content-center">
                     <div className="col-md-9 col-lg-8">
                         <div className="section-heading text-center mb-5">
-                            <h2>Our Work Process</h2>
+                            <h2>Our Mission</h2>
                             <p>
-                                Professional hosting at an affordable price. Distinctively recaptiualize principle-centered core competencies through client-centered core competencies.
+                                Be the guru app for digital nomads and long-term travelers. 
+                                <br />
+                                <b>We want to assist your journey by:</b>
                             </p>
                         </div>
                     </div>

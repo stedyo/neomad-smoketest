@@ -21,22 +21,10 @@ class Header extends React.Component {
 
                   <div className="collapse navbar-collapse h-auto" id="navbarSupportedContent">
                       <ul className="navbar-nav ml-auto menu">
-                          <li><a href="/#" className="dropdown-toggle"> Home</a>
-                              <ul className="sub-menu">
-                                  <li><a href="/">Home Page 01</a></li>
-                                  <li><a href="theme2">Home Page 02</a></li>
-                                  <li><a href="theme3">Home Page 03</a></li>
-                                  <li><a href="theme4">Home Page 04</a></li>
-                                  <li><a href="theme5">Home Page 05</a></li>
-                                  <li><a href="theme6">Home Page 06</a></li>
-                                  <li><a href="theme7">Home Page 07</a></li>
-                                  <li><a href="theme8">Home Page 08</a></li>
-                                  <li><a href="theme9">Home Page 09</a></li>
-                              </ul>
-                          </li>
+                          <li><a href="#home" className="page-scroll"> Home</a></li>
                           <li><a href="#about" className="page-scroll">About</a></li>
                           <li><a href="#features" className="page-scroll">Features</a></li>
-                          <li><a href="/#" className="dropdown-toggle">Pages</a>
+                          {/*<li><a href="/#" className="dropdown-toggle">Pages</a>
                               <ul className="sub-menu">
                                   <li><a href="/#" className="dropdown-toggle-inner">Login & Sign Up</a>
                                       <ul className="sub-menu">
@@ -72,11 +60,11 @@ class Header extends React.Component {
                                   <li><a href="aboutUs">About Us </a></li>
                                   <li><a href="contactUs">Contact Us</a></li>
                               </ul>
-                          </li>
+                          </li>*/}
                           <li><a href="#screenshots" className="page-scroll">Screenshots</a></li>
-                          <li><a href="#process" className="page-scroll">Process</a></li>
-                          <li><a href="#pricing" className="page-scroll">Pricing</a></li>
-                          <li><a href="#contact" className="page-scroll">Contact</a></li>
+                          {/*<li><a href="#process" className="page-scroll">Process</a></li>
+                          <li><a href="#pricing" className="page-scroll">Pricing</a></li>*/}
+                          <li><a href="#contact" className="page-scroll">Talk to Us</a></li>
                       </ul>
                   </div>
               </div>

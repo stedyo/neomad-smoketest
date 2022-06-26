@@ -21,7 +21,7 @@ class HeroSection extends React.Component {
         <section className="position-relative overflow-hidden background-video">
             <div className="video-container">
                 <video playsInline={true} autoPlay={true} muted={true} loop={true} poster="" id="bgvid">
-                    <source src="https://www.apdash.themetags.com/youtube-video-1.mp4" type="video/mp4" />
+                    <source src="https://www.youtube.com" type="video/mp4" />
                 </video>
             </div>
             <div className="video-content-wraper ptb-100">

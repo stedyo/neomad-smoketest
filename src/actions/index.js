@@ -10,10 +10,32 @@ import {
 } from "../constants/types.js";
 
 export const subscribe = email => {
-  return {
-    type: SUBSCRIBE,
-    email,
-  };
+ 
+  var Parse = require('parse/node');
+
+  Parse.initialize("dQi3fSvSgH1t7eVPk1kynpCey4fKmgbXoRf78TZ5","MkcPFjAwCrLYN0oZKyJXXQlcRP48yA0TzcRVIchb"); //PASTE HERE YOUR Back4App APPLICATION ID AND YOUR JavaScript KEY
+  Parse.serverURL = 'https://parseapi.back4app.com/'
+  
+  const waitlisted = new Parse.Object("waitlist");
+  
+	waitlisted.set("email", email.email);
+
+	try {
+	  	waitlisted.save()
+      
+      return {
+        type: SUBSCRIBE,
+        email,
+        tried: true 
+      }
+	  } catch(error) {
+      return {
+        tried: false
+      }
+	  }
+
+ 
+ 
 };
 
 export const submitContact = contactData => {

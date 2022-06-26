@@ -2,6 +2,9 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import { submitContact } from "../../actions/index";
 import _data from "../../data";
+import Lottie from 'react-lottie-player'
+
+import lottieJson from "../Lottie/31548-robot-says-hello.json"
 
 class Contact extends Component {
   constructor(props) {
@@ -136,49 +139,35 @@ class Contact extends Component {
   render() {
     return (
       <React.Fragment>
-        <section id="contact" className="contact-us-section ptb-100">
+        <section id="contact" className="contact-us-section ptb-40">
             <div className="container">
                 <div className="row justify-content-around">
                     <div className="col-12 pb-3 mb-4 message-box d-none alert alert-success"></div>
                     <div className="col-md-12 col-lg-5 mb-5 mb-md-5 mb-sm-5 mb-lg-0">
-                        <div className="contact-us-form gray-light-bg rounded p-5">
-                            <h4>Ready to get started?</h4>
-                            <form action="" method="POST" id="contactForm" className="contact-us-form" onSubmit={this.handleSubmit}>
-                                <div className="form-row">
-                                    <div className="col-12">
-                                        <div className="form-group">
-                                            <input type="text" className="form-control" name="name" value={this.state.name} onChange={e => this.handleFormValueChange("name", e)} placeholder="Enter name" />
-                                        </div>
-                                    </div>
-                                    <div className="col-12">
-                                        <div className="form-group">
-                                            <input type="email" className="form-control" name="email" value={this.state.email} onChange={e => this.handleFormValueChange("email", e)} placeholder="Enter email" />
-                                        </div>
-                                    </div>
-                                    <div className="col-12">
-                                        <div className="form-group">
-                                            <textarea name="message" value={this.state.message} id="message" className="form-control" rows="7" cols="25" placeholder="Message" onChange={e => this.handleFormValueChange("message", e) }></textarea>
-                                        </div>
-                                    </div>
-                                    <div className="col-sm-12 mt-3">
-                                        <button type="submit" className="btn btn-brand-02" id="btnContactUs" disabled={this.state.disableContactBtn} onClick={() => { this.changeBtnText("Sending..."); }}>
-                                        {this.state.contactBtnText}
-                                        </button>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
+                    <Lottie
+                      loop
+                      animationData={lottieJson}
+                      play
+                      style={{ width: "100%", height: "auto" }}
+                    />
                     </div>
                     <div className="col-md-12 col-lg-6">
                         <div className="contact-us-content">
                             <h2>{this.state.contact.title}</h2>
-                            <p className="lead">{this.state.contact.description}</p>
-
-                            <a href="/#" className="btn btn-outline-brand-01 align-items-center">Get Directions <span className="ti-arrow-right pl-2"></span></a>
-
+                            <p className="lead">{this.state.contact.description} {String.fromCodePoint("0x1F680")} {String.fromCodePoint("0x1F643")}</p>
                             <hr className="my-5" />
-
                             <ul className="contact-info-list">
+                                <li className="d-flex pb-3">
+                                    <div className="contact-icon mr-3">
+                                        <span className={(this.state.contact.emailIcon) + " color-primary rounded-circle p-3"}></span>
+                                    </div>
+                                    <div className="contact-text">
+                                        <h5 className="mb-1"  style={{letterSpacing: "0.09em"}}>{this.state.contact.emailTitle}</h5>
+                                        <p>
+                                          {this.state.contact.email}
+                                        </p>
+                                    </div>
+                                </li>
                                 <li className="d-flex pb-3">
                                     <div className="contact-icon mr-3">
                                         <span className={(this.state.contact.addressIcon) + " color-primary rounded-circle p-3"}></span>
@@ -190,19 +179,7 @@ class Contact extends Component {
                                         </p>
                                     </div>
                                 </li>
-                                <li className="d-flex pb-3">
-                                    <div className="contact-icon mr-3">
-                                        <span className={(this.state.contact.emailIcon) + " color-primary rounded-circle p-3"}></span>
-                                    </div>
-                                    <div className="contact-text">
-                                        <h5 className="mb-1">{this.state.contact.emailTitle}</h5>
-                                        <p>
-                                        {this.state.contact.email}
-                                        </p>
-                                    </div>
-                                </li>
                             </ul>
-
                         </div>
                     </div>
                 </div>

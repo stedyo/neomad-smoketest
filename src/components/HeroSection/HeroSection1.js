@@ -77,7 +77,7 @@ class HeroSection extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <section className="ptb-100 bg-image overflow-hidden" image-overlay="10">
+        <section  id="home"  className="ptb-100 bg-image overflow-hidden" image-overlay="10">
             <div className="hero-bottom-shape-two" style={{
               backgroundImage: "url(assets/img/hero-bottom-shape-2.svg)",
               backgroundRepeat: "no-repeat",
@@ -91,8 +91,12 @@ class HeroSection extends React.Component {
                             <p className="lead">Dating. Sharing Accomodation. Multi-purpose meetups. <b>Everything in one place.</b></p>
 
                             <div className="action-btns mt-5">
-                                <a href="/#" className="btn btn-brand-03 btn-rounded mr-3">Download Soon <i className="fas fa-cloud-download-alt pl-2"></i></a>
-                                {/*<a href="https://www.youtube.com/watch?v=1APwq1df6Mw" className="popup-youtube btn btn-white btn-circle btn-icon"><i className="fas fa-play"></i> </a> <span className="pl-2"> Watch Now</span>*/}
+                                <div className="list-inline social-list-default background-color social-hover-2 mt-2">
+                                  <li className="list-inline-item"><a className="linkedin" href="https://www.linkedin.com/company/y-comms/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin-in"></i></a></li>
+                                </div>
+                                
+                                {/*<a href="/#" className="btn btn-brand-03 btn-rounded mr-3">Available to Download Soon <i className="fas fa-cloud-download-alt pl-2"></i></a>
+                                <a href="https://www.youtube.com/watch?v=1APwq1df6Mw" className="popup-youtube btn btn-white btn-circle btn-icon"><i className="fas fa-play"></i> </a> <span className="pl-2"> Watch Now</span>*/}
                             </div>
                             {/*<div className="hero-counter mt-4">
                                 <div className="row">

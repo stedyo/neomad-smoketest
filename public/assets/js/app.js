@@ -1,8 +1,4 @@
-/*
-* _theThemeName v1.0.0 (https://themeforest.net/user/themetags)
-* Copyright 2020 Themetags
-* Licensed under ThemeForest License
-*/
+
 
 // TABLE OF CONTENTS
 

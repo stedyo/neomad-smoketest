@@ -28,7 +28,7 @@ class PromoSection extends React.Component {
                 <div className="row justify-content-center">
                     <div className="col-md-10 col-lg-8">
                         <div className="section-heading text-center">
-                            <h2>Why Apdash Different?</h2>
+                            <h2>Why Ycomms Different?</h2>
                             <p>Uniquely repurpose strategic core competencies with progressive content. Assertively transition ethical imperatives and collaborative manufactured products. </p>
                         </div>
                     </div>

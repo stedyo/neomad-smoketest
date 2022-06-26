@@ -1,16 +1,19 @@
 {
-  "name": "apdash",
-  "title": "apdash-react-app-landing-page-template",
+  "name": "ycomms",
+  "title": "ycomms-react-app-landing-page-template",
   "version": "1.0.0",
   "private": true,
-  "homepage": "http://apdash-react.themetags.com",
+  "homepage": "http://www.ycomms.co",
   "main": "src/index.js",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.13.0",
     "bootstrap": "^4.5.0",
     "jquery": "^3.5.1",
+    "parse": "^3.4.2",
     "popper.js": "^1.16.1",
-    "sass": "^1.53.0"
+    "react-lottie-player": "^1.4.3",
+    "sass": "^1.53.0",
+    "validator": "^13.7.0"
   },
   "scripts": {
     "start": "react-scripts start",

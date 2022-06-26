@@ -45,7 +45,6 @@ class About extends React.Component {
                                         <a href="https://abrotherabroad.com/digital-nomad-statistics/" target="_blank" rel="noopener noreferrer" alt="">Digital Nomad Statistics</a> say that the number #1 reason for a digital nomad to return home is loneliness.
                                         <br /><br /><b>Ycomms was born to fight this {String.fromCodePoint("0x1F93A")}</b>   
                                     </p>
-                                
                                 </div>
                             </div>
                         </div>

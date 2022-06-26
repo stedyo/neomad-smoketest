@@ -2,12 +2,12 @@ import React from "react";
 import { createStore } from "redux";
 import { Provider } from "react-redux";
 import { composeWithDevTools } from "redux-devtools-extension";
-import Apdash from "./reducers";
+import Ycomms from "./reducers";
 import Routes from "./routers";
 
 // create store
 const store = createStore(
-  Apdash,
+  Ycomms,
   composeWithDevTools()
   // applyMiddleware(...middleware),
   // other store enhancers if any
