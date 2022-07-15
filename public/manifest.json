@@ -8,12 +8,12 @@
       "type": "img/png"
     },
     {
-      "src": "y-logo.svg",
+      "src": "neomad.png",
       "type": "img/png",
       "sizes": "192x192"
     },
     {
-      "src": "y-logo.svg",
+      "src": "neomad.png",
       "type": "img/png",
       "sizes": "512x512"
     }	    

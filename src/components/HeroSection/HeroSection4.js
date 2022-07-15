@@ -38,7 +38,7 @@ class HeroSection extends React.Component {
                 <div className="row align-items-center justify-content-between">
                     <div className="col-md-6 col-lg-6">
                         <div className="hero-content-left pt-5">
-                            <h1 className="font-weight-bold">Make Cool Landing Pages With Ycomms</h1>
+                            <h1 className="font-weight-bold">Make Cool Landing Pages With Neomad</h1>
                             <p className="lead">Conveniently generate multifunctional markets and B2C vortals. Uniquely enable
                                 inexpensive materials rather than sticky products.</p>
                             <div className="action-btns mt-4">

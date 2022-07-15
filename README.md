@@ -1,1 +1,1 @@
-# ycomms-smoketest-landing-page
+# neomad-smoketest-landing-page

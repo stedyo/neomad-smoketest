@@ -40,13 +40,13 @@ class Screenshots extends React.Component {
                 <div className="screenshot-wrap">
                     <div className="screenshot-frame"></div>
                     <div className="screen-carousel owl-carousel owl-theme dot-indicator">
-                        <img src="assets/img/app-screenshots/ycomms-mockup_00004.svg" className="img-fluid" alt="screenshots" />
-                        <img src="assets/img/app-screenshots/ycomms-mockup_00006.svg" className="img-fluid" alt="screenshots" />
-                        <img src="assets/img/app-screenshots/ycomms-mockup_00007.svg" className="img-fluid" alt="screenshots" />
-                        <img src="assets/img/app-screenshots/ycomms-mockup_00008.svg" className="img-fluid" alt="screenshots" />
-                        <img src="assets/img/app-screenshots/ycomms-mockup_00009.svg" className="img-fluid" alt="screenshots" />
-                        <img src="assets/img/app-screenshots/ycomms-mockup_00010.svg" className="img-fluid" alt="screenshots" />
-                        <img src="assets/img/app-screenshots/ycomms-mockup_00013.svg" className="img-fluid" alt="screenshots" />
+                        <img src="assets/img/app-screenshots/neomad-mockup_00004.svg" className="img-fluid" alt="screenshots" />
+                        <img src="assets/img/app-screenshots/neomad-mockup_00006.svg" className="img-fluid" alt="screenshots" />
+                        <img src="assets/img/app-screenshots/neomad-mockup_00007.svg" className="img-fluid" alt="screenshots" />
+                        <img src="assets/img/app-screenshots/neomad-mockup_00008.svg" className="img-fluid" alt="screenshots" />
+                        <img src="assets/img/app-screenshots/neomad-mockup_00009.svg" className="img-fluid" alt="screenshots" />
+                        <img src="assets/img/app-screenshots/neomad-mockup_00010.svg" className="img-fluid" alt="screenshots" />
+                        <img src="assets/img/app-screenshots/neomad-mockup_00013.svg" className="img-fluid" alt="screenshots" />
                     </div>
                 </div>
             </div>

@@ -84,7 +84,7 @@ class Footer extends React.Component {
             <div className="row">
                 <div className="col-md-6 col-lg-7">
                     <div className="copyright-wrap small-text">
-                        <p className="mb-0">&copy; All rights reserved to YCOMMS, {new Date().getFullYear()}</p>
+                        <p className="mb-0">&copy; All rights reserved to Neomad, {new Date().getFullYear()}</p>
                     </div>
                 </div>
             </div>

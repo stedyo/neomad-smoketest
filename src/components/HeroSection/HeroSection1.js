@@ -92,7 +92,7 @@ class HeroSection extends React.Component {
 
                             <div className="action-btns mt-5">
                                 <div className="list-inline social-list-default background-color social-hover-2 mt-2">
-                                  <li className="list-inline-item"><a className="linkedin" href="https://www.linkedin.com/company/y-comms/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin-in"></i></a></li>
+                                  <li className="list-inline-item"><a className="linkedin" href="https://www.linkedin.com/company/neomad-life/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin-in"></i></a></li>
                                 </div>
                                 
                                 {/*<a href="/#" className="btn btn-brand-03 btn-rounded mr-3">Available to Download Soon <i className="fas fa-cloud-download-alt pl-2"></i></a>

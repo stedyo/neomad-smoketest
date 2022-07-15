@@ -11,7 +11,7 @@ class Header extends React.Component {
                   <a className="navbar-brand" href="/">
                      {/* <img src={this.props.isColorLogo && this.props.isColorLogo === true ? "assets/img/logo-color.png" : "assets/img/logo-white.png"}
                       alt="logo" className="img-fluid" />*/}
-                      <img src={"assets/img/y-logo.svg"} width="250px"
+                      <img src={"assets/img/neomad2.svg"} width="180px"
                       alt="logo" className="img-fluid" />
 
                   </a>

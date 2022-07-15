@@ -1,9 +1,9 @@
 {
-  "name": "ycomms",
-  "title": "ycomms-react-app-landing-page-template",
+  "name": "neomad",
+  "title": "neomad-react-app-landing-page-template",
   "version": "1.0.0",
   "private": true,
-  "homepage": "http://www.ycomms.co",
+  "homepage": "http://www.neomad.life",
   "main": "src/index.js",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.13.0",

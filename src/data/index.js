@@ -9,6 +9,6 @@
       address: "The city of cobalt blue skies.",
       emailTitle: "Our Email Address",
       emailIcon: "fas fa-envelope",
-      email: "hello@ycomms.co"
+      email: "hello@neomad.life"
     }
   };

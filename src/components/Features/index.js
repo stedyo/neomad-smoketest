@@ -20,7 +20,7 @@ class Feature extends React.Component {
                 <div className="row justify-content-center">
                     <div className="col-md-9 col-lg-9">
                         <div className="section-heading text-center mb-5">
-                            <h2>Ycomms Features</h2>
+                            <h2>Neomad Features</h2>
                             <p>Well, we are just getting started, therefore our subset of features include - but are not limited to:</p>
 
                         </div>

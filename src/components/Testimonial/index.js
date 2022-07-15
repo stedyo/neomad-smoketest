@@ -26,7 +26,7 @@ class Testimonial extends Component {
               <div className="row align-items-center">
                   <div className="col-md-6 col-lg-5 mb-4 mb-sm-4 mb-md-0 mb-lg-0">
                       <div className="testimonial-heading text-white">
-                          <h2 className="text-white">What Our Client Say About Ycomms</h2>
+                          <h2 className="text-white">What Our Client Say About Neomad</h2>
                           <p>Collaboratively actualize excellent schemas without effective models. Synergistically engineer functionalized applications rather than backend e-commerce.</p>
                       </div>
                   </div>
