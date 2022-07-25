@@ -2,7 +2,7 @@
     contact: {
       title: "We are only one e-mail away",
       description:
-        "We endeavour to answer all requests for communication as fast as we can",
+        "We endeavor to answer all requests for communication as fast as we can",
 
       addressTitle: "We are located in Madrid, Spain",
       addressIcon: "fas fa-location-arrow",

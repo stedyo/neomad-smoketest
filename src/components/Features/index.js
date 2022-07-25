@@ -42,7 +42,7 @@ class Feature extends React.Component {
                                 <div className="d-flex align-items-start mb-sm-0 mb-md-3 mb-lg-3">
                                     <span className="ti-home icon-size-md color-secondary mr-4"></span>
                                     <div className="icon-text">
-                                        <h5 className="mb-2">Sharing Accomodation</h5>
+                                        <h5 className="mb-2">Sharing Accommodation</h5>
                                         <p>Do you want to rent a house on Italy's Amalfi Coast for the summer? Some people want that too! Allow us to connect you to them.</p>
                                     </div>
                                 </div>
@@ -52,7 +52,7 @@ class Feature extends React.Component {
                                     <span className="ti-face-smile icon-size-md color-secondary mr-4"></span>
                                     <div className="icon-text">
                                         <h5 className="mb-2">Meet Ups</h5>
-                                        <p>Easily create and join group or events to meet people near you with same interests. Go hiking, go dancing.</p>
+                                        <p>Easily create and join groups or events to meet people near you with the same interests. Go hiking, go dancing.</p>
                                     </div>
                                 </div>
                             </div>

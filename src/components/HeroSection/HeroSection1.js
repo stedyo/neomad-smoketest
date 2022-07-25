@@ -88,7 +88,7 @@ class HeroSection extends React.Component {
                     <div className="col-md-12 col-lg-6">
                         <div className="hero-slider-content text-white py-5">
                             <h1 className="text-white">The super app for digital nomads and long-term travelers.</h1>
-                            <p className="lead">Dating. Sharing Accomodation. Multi-purpose meetups. <b>Everything in one place.</b></p>
+                            <p className="lead">Dating. Sharing Accommodation. Multi-purpose meetups. <b>Everything is in one place.</b></p>
 
                             <div className="action-btns mt-5">
                                 <div className="list-inline social-list-default background-color social-hover-2 mt-2">

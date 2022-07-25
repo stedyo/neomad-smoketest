@@ -42,7 +42,7 @@ class PromoSection extends React.Component {
                                 </div>
                                 <div className="pt-2 pb-3">
                                     <h5>24/7 Live Chat</h5>
-                                    <p className="mb-0">We endeavour to answer all enquiries within 24 hours on business days.</p>
+                                    <p className="mb-0">We endeavor to answer all enquiries within 24 hours on business days.</p>
                                 </div>
                             </div>
                         </div>

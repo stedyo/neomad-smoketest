@@ -38,7 +38,7 @@ class About extends React.Component {
                                     <li>How do you find people to share accommodation and stay on a budget in cool places?</li>
                                     <li>How do you keep up with old hobbies such as hiking, and kayaking?</li>
                                     <li>How do you explore new exciting things such as dancing the bachata?</li>
-                                    <li>How do you date another travelers? A like-minded person who can join you on this crazy journey?</li>
+                                    <li>How do you date other travelers? A like-minded person who can join you on this crazy journey?</li>
                                 </ul>
                                 <div className="row pt-3">
                                     <p> 
